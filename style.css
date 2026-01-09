@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    font-family: Arial, sans-serif;
 }
 
 .navbar{
@@ -46,4 +47,185 @@
     color: #469165;
 
 }
+
+.hero{
+    background: url(./assets/hero-bg.png);
+    height: 674px;
+    width: 1600px;
+    display: grid;
+    place-items: center; 
+     
+    
+ 
+ 
+    
+}
+.hero1{
+   
+   
+    display: grid;
+    justify-content: center;
+
+    
+    
+    
+    
+}
+.button00{
+    background-color: red;
+}
+
+.hero2{
+    text-align: center;
+    color:rgba(255, 255, 255, 1) ;
+    font-style: bold ;
+    font-size:70px;
+    font-weight: 700;
+     height: 168px;
+    width: 770px;
+    
+
+
+}
+
+span{
+    color: #469165;
+}
+
+
+
+.hero p{
+    color:#FFFFFF;
+    font-style:regular ;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 16px;
+    height: 60px;
+    width: 700px;
+    text-align: center;
+    line-height: 24px;
+   
+}
+
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.but button{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 18px;
+    width: auto;
+}
+
+
+/* First button */
+.button1 button{
+    background-color: #1ed760;
+    color: #0a1928;
+}
+
+
+
+/* Second button */
+.button2 button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+/* Icon size control */
+.but button img{
+    width: 18px;
+    height: 18px;
+}
+
+.heading{
+    text-align: center;
+   
+}
+.heading h1{
+    color: rgba(0, 25, 49, 1);
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+.heading p{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.card-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 50px;
+  height: 300px;
+  width: 1360px;
+}
+
+.card {
+  background: #fff;
+  width: 322px;
+  height: 200px;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 60px;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background: rgba(249, 85, 85, 1); 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+  
+}
+
+.icon-circle img {
+  width: 32px;
+  height: 32px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 600;
+  
+  
+  margin-bottom: 20px;
+  
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  width: 274px;
+height: 40px;
+font-weight: 400;
+
+}
+
+
+
 
